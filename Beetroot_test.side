@@ -1,0 +1,593 @@
+{
+  "id": "ab1eff3d-8916-407d-85d9-282d7e34e39b",
+  "version": "2.0",
+  "name": "Beetroot_test",
+  "url": "https://rozetka.com.ua/",
+  "tests": [{
+    "id": "608fca72-b4a8-4e3d-b6cb-fc2f855d636a",
+    "name": "тест 1",
+    "commands": [{
+      "id": "432d850e-8133-44d8-b3fc-0a820f9def78",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24641881-2c40-471a-9219-35462b9723ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f325202-f08c-4573-b7cc-ff95090c495e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57525765-28cd-45b3-ae0e-7214b66041be",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "жіночий гаманець"
+    }, {
+      "id": "478440c9-9547-47a8-8f55-4ee9349a5cf2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Знайти')]",
+      "targets": [
+        ["css=.button_color_green", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Знайти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f2166f9-6827-4f23-b36d-a2a04af403d5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Жіночий гаманець шкіряний Palmera vchn-pc-vv Burgundy (ROZ6206102432)')]",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Жіночий гаманець шкіряний Palmera vchn-pc-vv Burgundy (ROZ6206102432)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e8e8f33-4908-4716-b808-a347fa448bca",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdc8f383-c79c-4dc4-84d2-1cf538d544b9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Купити')]",
+      "targets": [
+        ["css=.buy-button__label", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/rz-product-buy-btn/app-buy-button/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aea193a6-d2a8-4037-adc8-d29f85ca636a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Оформити замовлення",
+      "targets": [
+        ["linkText=Оформити замовлення", "linkText"],
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформити замовлення')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/checkout/')]", "xpath:href"],
+        ["xpath=//rz-shopping-cart/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ba2969e9-dd4c-4b3e-acd4-e9d12d8d0eb9",
+    "name": "тест 2",
+    "commands": [{
+      "id": "9a61e152-5394-4e60-84da-cdb5fd5db7ba",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "338e8ea9-3044-49db-bfdc-2c50a6fa0c07",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e7cea4b-8276-4cad-9067-900087b1dc86",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Ноутбуки та комп’ютери')])[3]",
+      "targets": [
+        ["linkText=Ноутбуки та комп’ютери", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(1) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки та комп’ютери')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/computers-notebooks/c80253/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd613de6-fd19-407b-b2bb-8ebbbbe77979",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dc5d24a-e86a-4266-9154-5433dd1d994b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[contains(@src,'https://video.rozetka.com.ua/img_superportal/kompyutery_i_noutbuki/logo/apple.png')]",
+      "targets": [
+        ["css=.simple-slider__item:nth-child(1) > .portal-brands__item > .ng-lazyloaded", "css:finder"],
+        ["xpath=//img[contains(@src,'https://video.rozetka.com.ua/img_superportal/kompyutery_i_noutbuki/logo/apple.png')]", "xpath:img"],
+        ["xpath=//div/div/div/ul/li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd1c6116-d4c4-4c73-b857-b3086cf0fcff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(2) .portal-grid__cell:nth-child(3) .tile-cats__picture > .ng-star-inserted",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(2) .portal-grid__cell:nth-child(3) .tile-cats__picture > .ng-star-inserted", "css:finder"],
+        ["xpath=//img[@alt='iPad']", "xpath:img"],
+        ["xpath=//li[3]/rz-list-tile/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "088c2de0-26f1-4d1e-b9fd-168034426d75",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eaac4595-0b73-4044-af66-b81bc38c45b4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//img[@alt='Планшет Apple iPad 10.2\" 2021 Wi-Fi 64 GB Space Gray (MK2K3RK/A)'])[2]",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .lazy_img_hover", "css:finder"],
+        ["xpath=(//img[@alt='Планшет Apple iPad 10.2\" 2021 Wi-Fi 64 GB Space Gray (MK2K3RK/A)'])[2]", "xpath:img"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61579b13-0e5d-4cc1-9545-cf0feb1d16c7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6f23337-cbad-4fbb-818a-45bf63434af2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.var-options__item:nth-child(2) .var-options__color-preview",
+      "targets": [
+        ["css=.var-options__item:nth-child(2) .var-options__color-preview", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/rz-var-parameters/rz-var-parameter-option/div/div/ul/li[2]/rz-var-parameter-option-item/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/rz-var-parameter-option-item/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95976ee3-d224-48f8-9600-d12623c0f660",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8700151-79d6-49c4-af49-8016447e69d4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "498e605a-afdb-4a68-ab48-c9610fc3af51",
+    "name": "тест 3",
+    "commands": [{
+      "id": "f0b934cd-b1b7-4ab7-81aa-ae34fe04a425",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be3b524a-7455-4d9f-9ab6-dfe89a82bd46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea2bb6c2-8883-4251-84ed-7f1b8499f317",
+      "comment": "",
+      "command": "click",
+      "target": "css=#fat-menu > svg",
+      "targets": [
+        ["css=#fat-menu > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c49adfaf-8d42-4a80-a7f9-20c2259f0eea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Зоотовари",
+      "targets": [
+        ["linkText=Зоотовари", "linkText"],
+        ["css=.menu-categories__link_state_hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Зоотовари')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/zootovary/c3520929/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[13]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Зоотовари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e85be9-f9ec-42b2-be84-ef5f4e8b6331",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Корм для тварин",
+      "targets": [
+        ["linkText=Корм для тварин", "linkText"],
+        ["css=.top-widget__categories-item:nth-child(1) .popular-category", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/korma-dlya-zhivotnykh/c4627872/')])[4]", "xpath:href"],
+        ["xpath=//rz-category-tile/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "063c7075-d8d1-4a68-824b-ac60e734a180",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,53)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ee674d5-abe0-40a3-8a4c-b00fcb400ed9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Корми для гризунів",
+      "targets": [
+        ["linkText=Корми для гризунів", "linkText"],
+        ["css=.portal-grid__cell:nth-child(4) .tile-cats__heading", "css:finder"],
+        ["xpath=//a[contains(text(),'Корми для гризунів')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/korma-dlya-gryzunov/c3501231/')])[2]", "xpath:href"],
+        ["xpath=//li[4]/rz-list-tile/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Корми для гризунів')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53ce6645-170e-4893-a1dc-f791e3491554",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/ua/korma-dlya-gryzunov/c3501231/producer=beaphar/')]",
+      "targets": [
+        ["css=rz-filter-section-autocomplete .checkbox-filter__item:nth-child(1) > .checkbox-filter__link", "css:finder"],
+        ["xpath=//a[contains(@href, '/ua/korma-dlya-gryzunov/c3501231/producer=beaphar/')]", "xpath:href"],
+        ["xpath=//rz-filter-section-autocomplete/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3659cd8a-3e16-46ab-890e-33fd0e35498a",
+    "name": "тест 4",
+    "commands": [{
+      "id": "214b6abf-3513-4ba0-ac09-a382d2a9d4b1",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21f66ebb-13dc-4370-a537-095e81c09a40",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6480d942-400a-470f-92b3-32b74aeeb8b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#fat-menu > svg",
+      "targets": [
+        ["css=#fat-menu > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cc587dc-139e-42f7-8ca6-a4f245572f27",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Одяг, взуття та прикраси",
+      "targets": [
+        ["linkText=Одяг, взуття та прикраси", "linkText"],
+        ["css=.menu-categories__link_state_hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Одяг, взуття та прикраси')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/shoes_clothes/c1162030/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Одяг, взуття та прикраси')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7a6506c-1823-48e5-beec-27105a1977f8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Жіночі демісезонні куртки')]",
+      "targets": [
+        ["css=.top-widget__categories-item:nth-child(1) .popular-category__title", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Жіночі демісезонні куртки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0df59956-199e-48a8-8982-3f6130cce01c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34e143af-9027-43ae-b4f7-904ef17c6806",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,596)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99a81346-8a4b-4db2-a0c2-387d06b66b4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.simple-slider__item:nth-child(2) .thumbnail-button__picture",
+      "targets": [
+        ["css=.simple-slider__item:nth-child(2) .thumbnail-button__picture", "css:finder"],
+        ["xpath=(//img[@alt='Куртка Nui Very Крита 50 Чорна (2100001201746) - зображення 2'])[2]", "xpath:img"],
+        ["xpath=//div[@id='#scrollArea']/div/div/div/rz-product-gallery-main/app-slider[2]/div/div/rz-combine-scrollbar/div/div/div/ul/li[2]/rz-gallery-main-thumbnail-image/button/img", "xpath:idRelative"],
+        ["xpath=//li[2]/rz-gallery-main-thumbnail-image/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5359ddc4-044b-46f7-acb0-6e370d19036f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.simple-slider__item:nth-child(3) .thumbnail-button__picture",
+      "targets": [
+        ["css=.simple-slider__item:nth-child(3) .thumbnail-button__picture", "css:finder"],
+        ["xpath=(//img[@alt='Куртка Nui Very Крита 50 Чорна (2100001201746) - зображення 3'])[2]", "xpath:img"],
+        ["xpath=//div[@id='#scrollArea']/div/div/div/rz-product-gallery-main/app-slider[2]/div/div/rz-combine-scrollbar/div/div/div/ul/li[3]/rz-gallery-main-thumbnail-image/button/img", "xpath:idRelative"],
+        ["xpath=//li[3]/rz-gallery-main-thumbnail-image/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2143851f-0893-4b21-bfc0-d25f3f6db556",
+      "comment": "",
+      "command": "click",
+      "target": "css=.simple-slider__item:nth-child(4) .thumbnail-button__picture",
+      "targets": [
+        ["css=.simple-slider__item:nth-child(4) .thumbnail-button__picture", "css:finder"],
+        ["xpath=(//img[@alt='Куртка Nui Very Крита 50 Чорна (2100001201746) - зображення 4'])[2]", "xpath:img"],
+        ["xpath=//div[@id='#scrollArea']/div/div/div/rz-product-gallery-main/app-slider[2]/div/div/rz-combine-scrollbar/div/div/div/ul/li[4]/rz-gallery-main-thumbnail-image/button/img", "xpath:idRelative"],
+        ["xpath=//li[4]/rz-gallery-main-thumbnail-image/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "068fe703-bab4-4c9e-bff6-6bb78841b291",
+      "comment": "",
+      "command": "click",
+      "target": "css=.simple-slider__item:nth-child(5) .thumbnail-button__picture",
+      "targets": [
+        ["css=.simple-slider__item:nth-child(5) .thumbnail-button__picture", "css:finder"],
+        ["xpath=(//img[@alt='Куртка Nui Very Крита 50 Чорна (2100001201746) - зображення 5'])[3]", "xpath:img"],
+        ["xpath=//div[@id='#scrollArea']/div/div/div/rz-product-gallery-main/app-slider[2]/div/div/rz-combine-scrollbar/div/div/div/ul/li[5]/rz-gallery-main-thumbnail-image/button/img", "xpath:idRelative"],
+        ["xpath=//li[5]/rz-gallery-main-thumbnail-image/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d220948a-0ac7-4373-bfb3-9064d58236d2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,95)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "52cacf75-e766-4db9-ae6b-ec3a5166775c",
+    "name": "тест 5",
+    "commands": [{
+      "id": "f1936bda-c048-47cd-8460-5dbfba39dec2",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6037cf1d-1980-4584-b523-820fc904e9b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4a1e454-d8bd-4de6-bc80-c4798d339b9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#fat-menu use",
+      "targets": [
+        ["css=#fat-menu use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ec095c0-cdcf-4771-bf22-aa82f9eebc43",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Офіс, школа, книги')]",
+      "targets": [
+        ["linkText=Офіс, школа, книги", "linkText"],
+        ["css=.menu-categories__link_state_hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Офіс, школа, книги')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/office-school-books/c4625734/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[14]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Офіс, школа, книги')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06d1a0e9-8339-4278-8f9d-3f5bfbfcc162",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Паперова продукція')]",
+      "targets": [
+        ["linkText=Паперова продукція", "linkText"],
+        ["css=.ng-star-inserted:nth-child(2) .portal-grid__cell:nth-child(5) .tile-cats__heading", "css:finder"],
+        ["xpath=//a[contains(text(),'Паперова продукція')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/paper/c2460397/')])[2]", "xpath:href"],
+        ["xpath=//li[5]/rz-list-tile/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Паперова продукція')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e4ee62b-d950-4df2-9d7f-3f1660f26d83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portal-navigation__item:nth-child(2) .portal-navigation__link-text",
+      "targets": [
+        ["css=.portal-navigation__item:nth-child(2) .portal-navigation__link-text", "css:finder"],
+        ["xpath=//li[2]/a/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31d78091-0bb8-4482-95a8-91a4c607e310",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Нотатник Axent Partner 125 х 195 96 аркушів клітинка обкладинка малахіт (8201-31-A)')]",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Нотатник Axent Partner 125 х 195 96 аркушів клітинка обкладинка малахіт (8201-31-A)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13293346-8f00-4daf-899f-7b10178bfe22",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9921b593-da91-4c93-8166-f80f30f1901d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,523)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5adbf3d-ce1d-4430-8881-0b83703842fc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1476)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10c30ec8-b992-4384-85ea-add04a425cb0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3232)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd22ebb0-917f-4ec7-a25c-43ef8e04e501",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Дивитися усі відгуки до товару →",
+      "targets": [
+        ["linkText=Дивитися усі відгуки до товару →", "linkText"],
+        ["css=.product-about__all-link:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Дивитися усі відгуки до товару →')]", "xpath:link"],
+        ["xpath=//div[@id='#scrollArea']/div[2]/div[2]/rz-product-comments-tab-main/section/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/axent-8201-31-a/p333874309/comments/')])[6]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Дивитися усі відгуки до товару →')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e95176c0-7767-4f0d-8f7f-2a8700a61c17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--navy",
+      "targets": [
+        ["css=.button--navy", "css:finder"],
+        ["xpath=//section/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Фільтри')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "197d37d7-0b03-4a8a-9a85-3a8bf1f9c41a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label[contains(.,'5 зiрок')]",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(6) label", "css:finder"],
+        ["xpath=//div[5]/rz-radio/label", "xpath:position"],
+        ["xpath=//label[contains(.,'5 зiрок')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7514c9cb-795c-47a4-8dd8-a7da73a13030",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Фiльтрувати')]",
+      "targets": [
+        ["css=.button--medium:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Фiльтрувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f668a720-c50b-419e-a810-7cd5de396e17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,436)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bb8ef1c0-deb1-48d7-a1a6-61817d083052",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
